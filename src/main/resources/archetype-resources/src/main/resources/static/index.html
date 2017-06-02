@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="webjars/angularjs/1.6.4/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/example.service.js"></script>
+    <script src="js/example.controller.js"></script>
+
+    <meta charset="UTF-8"/>
+    <title>Example index</title>
+</head>
+<body ng-app="app" ng-controller="ExampleController as ec">
+<div class="container">
+    <div class="row">
+        {{ec.serverAddress}}
+    </div>
+</div>
+</body>
+</html>
